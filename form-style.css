@@ -1,0 +1,36 @@
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: beige;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+}
+
+.sign-up-form label {
+  color: darkblue;
+  padding-bottom: 8px;
+}
+.sign-up-form input::placeholder {
+  color: grey;
+}
+.sign-up-form input {
+  background: white;
+  border: none;
+  height: 24px;
+  margin: 0 0 12px;
+}
+
+.sign-up-form button {
+  background: none;
+  border-radius: 12%;
+  padding: 12px;
+  margin: auto;
+  color: darkblue;
+}
+
+.sign-up-form button:active {
+  background: grey;
+  box-shadow: 5px 5px rgba(2, 2, 2, 0.2);
+}
