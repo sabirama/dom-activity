@@ -1,3 +1,4 @@
+/* form */
 #sign-up-form {
   display: flex;
   flex-direction: column;
@@ -27,10 +28,15 @@
 
 #sign-up-form button {
   background: none;
+  border: solid 2px darkblue;
   border-radius: 12%;
   padding: 12px;
   margin: auto;
   color: darkblue;
+}
+
+#sign-up-form button:hover {
+  background: lightblue;
 }
 
 #sign-up-form button:active {
@@ -42,6 +48,7 @@
   align-self: center;
 }
 
+/* footer */
 footer {
   background-color: beige;
   padding-bottom: 20px;
@@ -54,11 +61,25 @@ footer {
   padding: 20px 40px 0;
 }
 
+#footer input {
+  border: none;
+  margin-right: 12px;
+  padding: 5px;
+}
+
 #footer button {
-  background: white;
+  background: none;
   border: 2px solid darkblue;
   border-radius: 12px;
   padding: 5px;
+}
+
+#footer button:hover {
+  background: lightblue;
+}
+
+#footer button:active {
+  background: grey;
 }
 
 #copyright {
