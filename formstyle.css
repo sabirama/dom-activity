@@ -3,9 +3,10 @@
   flex-direction: column;
   align-items: start;
   background-color: beige;
-  padding: 20px;
+  padding: 20px 40px;
   width: fit-content;
   margin: auto;
+  border-radius: 12px;
 }
 
 #sign-up-form label {
@@ -33,4 +34,11 @@
 #sign-up-form button:active {
   background: grey;
   box-shadow: 5px 5px rgba(2, 2, 2, 0.2);
+}
+
+#sign-up-form h1 {
+  align-self: center;
+}
+#sign-up-form p {
+  color: darkblue;
 }
