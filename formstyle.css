@@ -4,7 +4,7 @@
   align-items: start;
   background-color: beige;
   padding: 20px 40px;
-  width: fit-content;
+  width: 450px;
   margin: auto;
   border-radius: 12px;
 }
@@ -15,6 +15,7 @@
 }
 #sign-up-form input::placeholder {
   color: grey;
+  text-align: center;
 }
 #sign-up-form input {
   background: white;
@@ -39,9 +40,6 @@
 
 #sign-up-form h1 {
   align-self: center;
-}
-#sign-up-form p {
-  color: darkblue;
 }
 
 footer {

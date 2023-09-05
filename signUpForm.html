@@ -9,14 +9,28 @@
   <body>
     <form id="sign-up-form">
       <h1>Sign-Up Form</h1>
-      <p>Please input atleast one uppercase for Username.</p>
       <label for="username">Username: </label>
-      <input type="text" placeholder="Username" name="username" id="username" />
+      <input
+        type="text"
+        placeholder="Username must be atleast 8 characters and 1 uppercase."
+        name="username"
+        id="username"
+      />
 
       <label for="passowrd">Password: </label>
-      <input type="password" name="password" id="password" />
+      <input
+        type="password"
+        placeholder="Password must be atleast 8 character."
+        name="password"
+        id="password"
+      />
       <label for="confirm-passowrd">Confirm Password: </label>
-      <input type="password" name="confirm-password" id="confirm-password" />
+      <input
+        type="password"
+        placeholder="Confirm your password."
+        name="confirm-password"
+        id="confirm-password"
+      />
       <button type="submit" id="sign-up-btn">Sign-Up</button>
     </form>
 
