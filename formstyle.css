@@ -43,3 +43,30 @@
 #sign-up-form p {
   color: darkblue;
 }
+
+footer {
+  background-color: beige;
+  padding-bottom: 20px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px 40px 0;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: darkblue;
+}
