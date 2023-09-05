@@ -1,59 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="formstyle.css" />
+    <link rel="stylesheet" href="indexstyle.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sign-Up</title>
-  <link rel="stylesheet" href="formstyle.css" />
-</head>
+  <body>
+    <header>
+      <span>LOGO</span>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="">ABOUT</a>
+        <a href="">CONTACT</a>
+        <a href="./signUpForm.html">FORM</a>
+      </nav>
+    </header>
+    <box-icon name="menu" id="burger-menu"></box-icon>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./index.js"></script>
 
-<body>
-  <form id="sign-up-form">
-    <h1>Sign-Up Form</h1>
-    <label for="username">Username: </label>
-    <input type="text" placeholder="Username must be atleast 8 characters and 1 uppercase." name="username"
-      id="username" />
+    <form id="sign-up-form">
+      <h1>Sign-Up Form</h1>
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        placeholder="Username must be atleast 8 characters and 1 uppercase."
+        name="username"
+        id="username"
+      />
 
-    <label for="passowrd">Password: </label>
-    <input type="password" placeholder="Password must be atleast 8 character." name="password" id="password" />
-    <label for="confirm-passowrd">Confirm Password: </label>
-    <input type="password" placeholder="Confirm your password." name="confirm-password" id="confirm-password" />
-    <button type="submit" id="sign-up-btn">Sign-Up</button>
-  </form>
+      <label for="passowrd">Password: </label>
+      <input
+        type="password"
+        placeholder="Password must be atleast 8 character."
+        name="password"
+        id="password"
+      />
+      <label for="confirm-passowrd">Confirm Password: </label>
+      <input
+        type="password"
+        placeholder="Confirm your password."
+        name="confirm-password"
+        id="confirm-password"
+      />
+      <button type="submit" id="sign-up-btn">Sign-Up</button>
+    </form>
 
-  <footer>
-    <div id="footer">
-      <div>
-        <p>Contacts</p>
-        <ul>
-          <li><a href="mailto:">samplemail@mail.com</a></li>
-          <li><a href="tel:+">+000000000000</a></li>
-        </ul>
+    <footer>
+      <div id="footer">
+        <div>
+          <p>Contacts</p>
+          <ul>
+            <li><a href="mailto:">samplemail@mail.com</a></li>
+            <li><a href="tel:+">+000000000000</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>Social Links</p>
+          <ul>
+            <li>
+              <a href="">Facebook</a>
+            </li>
+            <li>
+              <a href="">Instagram</a>
+            </li>
+            <li>
+              <a href="">X</a>
+            </li>
+          </ul>
+        </div>
+        <form id="newsletter">
+          <p>Subscribe to our newsletter.</p>
+          <input
+            type="text"
+            placeholder="Your E-mail"
+            name="newsletter"
+            id="newsletter-email"
+          />
+          <button type="submit" id="newletter-btn">Subscribe</button>
+        </form>
       </div>
-      <div>
-        <p>Social Links</p>
-        <ul>
-          <li>
-            <a href="">Facebook</a>
-          </li>
-          <li>
-            <a href="">Instagram</a>
-          </li>
-          <li>
-            <a href="">X</a>
-          </li>
-        </ul>
-      </div>
-      <form id="newsletter">
-        <p>Subscribe to our newsletter.</p>
-        <input type="text" placeholder="Your E-mail" name="newsletter" id="newsletter-email" />
-        <button type="submit" id="newletter-btn">Subscribe</button>
-      </form>
-    </div>
-    <p id="copyright">&copy;2023. All Rights Reserved</p>
-  </footer>
-  <script src="sign-up-form.js"></script>
-</body>
-
+      <p id="copyright">&copy;2023. All Rights Reserved</p>
+    </footer>
+    <script src="sign-up-form.js"></script>
+  </body>
 </html>
