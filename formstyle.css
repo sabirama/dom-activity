@@ -54,6 +54,13 @@ footer {
   padding: 20px 40px 0;
 }
 
+#footer button {
+  background: white;
+  border: 2px solid darkblue;
+  border-radius: 12px;
+  padding: 5px;
+}
+
 #copyright {
   display: flex;
   justify-content: center;
